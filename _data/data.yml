@@ -1,65 +1,55 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
-
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
+    name: Paramesh Gunasekaran
+    tagline: Software Architect
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below    
+    email: contact@paramg.com
+    phone: +61 2 9889 5670
+    website: blog.paramg.com
+    linkedin: parameshg
+    xing: 
+    github: parameshg
+    telegram: parameshg
+    gitlab: parameshg
+    bitbucket: 
+    twitter: parameshg
     stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+    codewars: 
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
         level: Professional
 
     interests:
-      - item: Climbing
-        link:
+      - item: Bushwalking
+        link: https://www.bushwalkingaustralia.org
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+      - item: Gaming
+        link: https://www.xbox.com
 
 career-profile:
-    title: Career Profile
+    title: Summary
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      15+ years of experience in analysis, architecture & design, development, implementation, integration, testing, and deployment of enterprise-wide web,
+      Windows, mobile, client-server, n-tier business applications using Microsoft .NET and DevOps technologies such as C# .NET, ASP.NET/MVC, SQL Server,
+      SOA/SaaS ASMX/WebAPI2, WCF as a Senior Developer, Technical Lead and Architect.      
+      1. Extensive experience in front-end (HTML5, CSS3, JavaScript, JQuery, AngularJS) development
+      2. Extensive experience in backend (C#, MVC5, ASP.NET, MSSQL) development
+      3. Experience in integration and middleware technologies and message-oriented architectures (ZeroMQ/RabbitMQ/MSMQ)
+      4. Extensive experience in RDBMS technologies (SQL Server, Sqlite, MySQL)
+      5. Experience in NoSQL technologies (MongoDB, Redis, Memcached, RavenDB)
+      6. Experience in Packer, Terraform, Ansible and CI/CD pipelines (GitHub, TeamCity, Octopus Deploy, Jenkins)
+      7. Experience in AWS Cloud (EC2, S3, SQS, SNS, API Gateway, Lambda) and Docker technologies
+
+      Specialties: Software Architecture and Application Design, Microsoft .NET Professional, Consumer Electronics
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Bachelors of Engineering Information Technology
+      university: Anna University, India
+      time: 2001 - 2005
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -68,125 +58,245 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Architect
+      time: May 2020 - Present
+      company: PACOM Systems, Sydney
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Pacom Systems, a subsidiary of Stanley Black & Decker is a market leader and specializes in developing physical access control and Intrusion detection systems including hardware and software components – The lead architect responsible for the software side of the business
+
+        The lead architect responsible for the product convergence strategy, unifying 3 existing legacy products and moving them as a single product into public cloud
+        
+        Experience in working with multi-cloud providers, Azure and AWS with services such as EC2, VPC, S3, SNS, SQS, SES, ECR, VPN, Route53, Storage Accounts, ACR.
+        
+        Experience in Azure DevOps, using agile boards, Git repositories, Nuget artifacts, authoring build and release pipelines, configuring and managing VSTS agents and pools
+        
+        Experience in designing and developing infrastructure-as-code using Packer, Terraform and Ansible frameworks for provisioning truly on-premise air-gapped and hybrid multi-cloud resources.
+        
+        Experience in designing event-driver architecture, decomposing cross-cutting functionalities and non-functional requirements such as Administration, Auditing, Authentication, Authorization, Availability, Caching, Configuration, Deployment, DevOps Automation, Error Handling, External Interfaces, Fault Tolerance, Licensing, Logging, Monitoring, Packaging, Performance, Reliability, Routing, Scaling, Security, Telemetry.
+        
+        Experience in designing with middleware technologies such as RabbitMQ and frameworks such as MassTransit
+        
+        Experience in designing observability using OpenTelemetry with Zipkin for tracing, Grafana for metrics and ELK for logging, benchmarking performance attributes for architectural components
+        
+        Experience in designing architecture in a Cloud-agnostic way to prevent vendor-locking and optimizing flexibility
+        
+        Key stakeholder for product roadmap, strategy, pricing, projects placement/estimation/scheduling/budgeting, and cost owner in OP budget for architecture
+
+    - role: Technical Lead (.NET and DevOps)
+      time: Oct 2019 - May 2020
+      company: AMP Capital, Sydney
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Engineering Practices Lead for Public Markets portfolio, responsible for streamlining of development, DevOps and delivery of home-grown apps and vendor-provided systems.
+
+        Development lead for containerization (Docker) and sphere-headed AWS migration of home-grown on-premise applications of heterogeneous technologies; designing hybrid applications with on-premise and cloud resources for a staged migration approach.
+
+        Experience in deploying containerized Active Directory authenticated Windows applications (.NET framework 4.x) behind a web server (IIS) and network proxy.
+
+        Experience in provisioning AWS Kubernetes (EKS) and container service (ECS Fargate and EC2) clusters using Windows and Linux nodes.
+
+        Experience in developing infrastructure-as-code using AWS CloudFormation scripts; provisioning and configuration management of cloud resources using Ansible.
+
+        Experience in developing fully serverless applications using ASPNET Core and AWS Lambda; provisioning them on ECS Fargate and ECS EC2 cluster configuration.
+
+        Experience in building and deploying application using CI/CD tools such as Bitbucket, Teamcity, Jenkins, Octopus Deploy, AWS ECR.
+
+    - role: Technical Lead (.NET and DevOps)
+      time: Jun 2019 - Oct 2019
+      company: Temenos, Sydney
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Responsible for the design and development of BaaS (Bank as a Service) platform providing cloud-agnostic hosted and on-premise offerings with multiple heterogeneous products seamlessly functioning as a single cohesive unit.
+
+        Experience in designing, developing, deploying and scaling microservice applications (MVC/WebApi) using Microsoft .NET Core, Blazor and various architectural patterns (layered, clean, hexagonal), packaged as Docker images and deployed into Swarm and/or Kubernetes cluster.
+
+        Experience in automating infrastructure and application provisioning using Ansible scripts, Windows automation, using MSBuild from Ansible scripts, deploying Docker containers in Docker host and Swarm using Ansible, deploying containers in Kubernetes cluster using Ansible
+
+        Experience in automating continuous integration and deployment using Jenkins and Concourse CI.
+
+        Experience in provisioning cloud infrastructure resources and defining infrastructure-as-code in Azure and AWS using Terraform
+
+    - role: Senior .NET Developer / DevOps
+      time: Mar 2018 - May 2019
+      company: Temenos, Sydney
+      details: |
+        Experience in re-designing a monolithic application and migrating/developing into a microservice architecture based services, deploying and scaling microservices app in kubernetes cluster, provisioning microservices with services mesh (Istio) on a kubernetes cluster, producing/consuming JSON Web Tokens (JWT) for api authentication (OpenId Connect)
+
+        Experience in designing and developing WebApi/MVC applications using .NET Core v2 and Microsoft Blazor web framework using architectural patterns (layered, clean, hexagonal)
+
+        Experience in using design patterns, writing unit tests (Arrange-Act-Assert pattern) using xUnit and stub/mock objects with FakeItEasy/AutoFixure, scaling applications for performance using RabbitMQ
+
+        Experience in building, storing, updating and deploying application containers, deploying and scaling infrastructure (db, mq, web server) service stacks across docker cluster, building, deploying and scaling linux and windows containers, containerizing WCF SOAP and WebApi REST services
+
+        Experience in automating infrastructure and application provisioning using Ansible scripts, Windows automation, using MSBuild from Ansible scripts, deploying Docker containers in Docker host and Swarm using Ansible, deploying containers in Kubernetes cluster using Ansible
+
+        Experience in automating continuous integration and deployment using Concourse CI, an container-based CI/CD platform
+
+        Experience in provisioning cloud infrastructure resources and defining infrastructure-as-code in Azure and AWS using Terraform
+
+        Experience in the feasibility study, project effort and schedule estimation, code review, design review, test case review and peer reviews
+
+    - role: Senior .NET Developer
+      time: Nov 2017 - Mar 2018
+      company: Wesfarmers, Sydney
+      details: |
+        Designed and developed employment contract portal using ASP.NET Core, WebAPI, MVC, Razor Pages, Entity Framework (EFCore), Typescript, Angular4 and Nodejs
+
+        Responsible for redesign of WISESB, a proprietary B2B integration and middleware system
+
+    - role: Lead .NET Developer
+      time: Jun 2016 - Oct 2017
+      company: Commonwealth Bank, Sydney
+      details: |
+        Hands-on Senior/Lead .NET developer at Commonwealth Bank of Australia (CBA) for the architecture, design, and development of Virtual Express, an MVC5/WebAPI2/Angularjs based self-service automation system for creating, deploying and extending LISA/DevTest virtual services.
+
+        Responsible for the enhancements and maintenance of Service Cockpit, an HTML5/MVC5/WebAPI based dashboard, test automation and monitoring system for running LISA, Frisby, Postman, and Mountebank tests scripts.
+
+        Extensive experience designing and developing event-driven and message-based systems using messaging middleware such RabbitMQ, MSMQ and service bus frameworks such as NServiceBus, MassTransit, ReBus, EasyNetQ, MementoFx.
+
+        Extensive experience in dependency injection (DI) using IoC (Inversion of Control) containers such as Unity, AutoFac, SimpleInjector, StructureMap, and NInject.
+
+        Experience in designing applications using SOLID principles, n-tier/layered architecture, SOA and microservices, design patterns such as Factory, Strategy, Decorator, Proxy, Command, Chain of Responsibility.
+
+        Experience in using and developing the web, Windows and mobile applications using RDMS databases such as MSSQL, MySql, SqlLite, NoSQL databases/datastore such as MongoDB, Redis, Memcached, embedded database like LiteDB, RavenDB and ORMs such as Entity Framework, Dapper (MicroORM).
+
+        Experience in using NancyFx for creating embedded web and WebAPI applications, Quartz for scheduling tasks hosted over Windows services using Topshelf.
+
+        Experience in setting up CI/CD (Continuous Integration and Continuous Delivery) pipeline and using tools such as Git, GitHub, Stash/BitBucket, TFS, Jenkins, TeamCity and Octopus Deploy.
+
+        Experience in designing and developing applications using AWS (EC2, S3, SQS, SNS) and Docker containers.
+
+        Experience in the feasibility study, project effort and schedule estimation, code review, design review, test case review and peer reviews.
+
+    - role: Technical Lead
+      time: January 2016 - June 2016
+      company: Seagate
+      details: |
+        Designed and developed Network Discovery and Management system using WMI, WinRM, PowerShell and Bigdata technologies such as HDFS, MapReduce, Sqoop, and Flume.
+
+        Designed and developed Network Discovery Management Web Portal using .NET MVC5.
+        
+        Designed and developed Evault SOAP/REST web services using WCF/ServiceStack
+
+    - role: Technical Lead
+      time: January 2015 – December 2015
+      company: Micron Technology
+      details: |
+        Designed technical architecture and developed scalable Enterprise Policy Manager, system consisting of Administration (PAP) & Decision (PDP) servers and Enforcement (PEP) APIs using NoSQL (MongoDB, Redis, Memcached) databases, RabbitMQ middleware, HTTP REST/SOAP/Protobuf APIs using ServiceStack and web portal using MVC5/Angular and command-line interfaces (CLI) using PowerShell technology.
+        
+        Managed project team for engineering and delivery
+
+    - role: Technical Lead
+      time: October 2009 - December 2014
+      company: Home Shopping Network, USA
+      details: |
+        Designed technical architecture for multiple projects and provided various design alternatives.
+
+        Designed and developed XML-XSL transformation, scalable and reusable Windows services.
+
+        Designed and developed mobile shopping application for Nokia Symbian mobiles using Silverlight.
+
+        Involved in design and development of Shop-by-Remote (SbR) shopping experience on TV using:
+          - Yahoo! Widget Platform for Sony, Toshiba, Samsung & Vizio Connected-TVs
+          - Microsoft Mediaroom Platform for AT&T set-top boxes using Mediaroom Presentation Framework included with Mediaroom client and Mediaroom Application Development Kit and ASP.NET v2.0 using custom-controls that renders MRML and interpreted on client set-top boxes.
+          - HTML5/CSS3/JavaScript SPA (Single-Page Application) and SOA web services for Verizon, Dish Hopper, Comcast Xcalibur Set-top Boxes, Panasonic, LG, Sony, Sharp, Samsung Smart TVs and Blu-ray Devices, Vizio Media Streaming Boxes and TiVo DVR Boxes
+        
+        Involved in feasibility study, architecture & design and development of working prototype & production systems of patented Recognize & Shop and Point to Shop features, a R&D initiative. “System and method for recognition of items in media data and delivery of information related thereto”, publication number US20120183229 A1.
+
+    - role: Senior Developer
+      time: September 2007 - September 2009
+      company: IGT, Canada
+      details: |
+        Lead developer of Dynamic Game Management (DGM) system
+
+        Involved in development of client-server system, WinForms talking to Java-based web services
+
+        Designed, developed UI2S-PS (User-Interface To System Protocol Simulator) to handle/simulate requests/responses to independently develop/test client/server components
+        
+        Involved as an integration engineer for integrating .NET and Java components
+
+    - role: Software Developer
+      time: June 2005 – May 2007
+      company: HCL Technologies, India
+      details: |
+        Worked as a developer for HCL corporate intranet redesign and unification initiatives.
+
+        Developed hardware-software inventory tracking and management system complementing IBM Tivoli server monitoring and system management software.
+
+        Involved in designing database structure and developing key stored procedures.
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: "Open-Source"
+    intro: "The following are few of the notable open-source projects, prototypes and reference implementation that have been developed."
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: "Orleans Prototype"
+        link: "https://github.com/parameshg/orleans-prototype"
+        tagline: "A quick prototype for using Orleans and expressing its salient features such as clustering and storage. For more information, visit go.paramg.com/orleans/presentation for presentation slides and go.paramg.com/orleans/article for full article."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: "Istio Prototype"
+        link: "https://github.com/parameshg/istio-prototype"
+        tagline: "A quick prototype implementation of a service mesh using istio on kubernetes cluster. For more information, visit go.paramg.com/istio-demo."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: "Event-Sourcing Prototype"
+        link: "https://github.com/parameshg/event-sourcing-prototype"
+        tagline: "An opinionated prototype of event-sourcing demonstration using a simulated chess board game."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: "WinLIRC.NET"
+        link: "https://github.com/parameshg/WinLIRC.NET"
+        tagline: "WinLIRC.NET (WLN) is a software framework developed using Microsoft .NET framework v4.0 over the open source WinLIRC program. It provides a .NET wrapper over the existing open-source WinLIRC program facilitating rapid development of .NET programs for Infra-Red signal communications."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: "Mars Rover"
+        link: "https://github.com/parameshg/mars-rover"
+        tagline: "A reference implementation of command design pattern."
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Certification
+    intro: ""
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "TOGAF Certified Enterprise Architect"
+        link: "https://www.opengroup.org/certifications/togaf"
+        authors: "The Open Group"
+        conference: "April 2021"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Object-Oriented Design"
+        link: "https://www.coursera.org/learn/object-oriented-design"
+        authors: "University of Alberta"
+        conference: "June 2020"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "AWS Certified Solution Architect"
+        link: "https://aws.amazon.com/certification/certified-solutions-architect-associate"
+        authors: "Amazon Web Services"
+        conference: "September 2017"
+
+      - title: "AWS Certified Developer"
+        link: "https://aws.amazon.com/certification/certified-developer-associate"
+        authors: "Amazon Web Services"
+        conference: "June 2017"
+
+      - title: "Certified ScrumMaster"
+        link: "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"
+        authors: "Scrum Alliance"
+        conference: "November 2015"
+
+      - title: "Microsoft Certified Professional"
+        link: "https://mcp.microsoft.com/home.html"
+        authors: "Microsoft"
+        conference: "May 2006"
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Proficiency
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
+      - name: Architecture and Design
+        level: 90%
+      - name: DevOps and Automation
+        level: 80%
+      - name: AWS & Azure
+        level: 80%
+      - name: C# and .NET
+        level: 80%
       - name: Angular
-        level: 98%
+        level: 70%
+      - name: Xamarin
+        level: 50%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: Copyright (C) Paramesh Gunasekaran 2020-2021 | paramg.com
