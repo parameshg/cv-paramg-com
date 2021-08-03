@@ -4,7 +4,7 @@ baseurl: ""
 description: "Curriculum Vitae of Paramesh Gunasekaran"
 theme_skin: ceramic # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
-analytics: ""
+analytics: "281595962"
 
 sass:
   sass_dir: _sass
