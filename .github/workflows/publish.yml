@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: build
-        run: docker run --rm -v $PWD:/srv/jekyll jekyll/builder:3.8 jekyll build
+        run: docker run --rm -v $PWD:/srv/jekyll -e "JEKYLL_ENV=production" jekyll/builder:3.8 jekyll build
 
       - name: deploy
         run: docker run --rm -v $PWD:/aws -e "AWS_EC2_METADATA_DISABLED=true" -e "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" -e "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" amazon/aws-cli:latest s3 cp /aws s3://cv.paramg.com/ --recursive
